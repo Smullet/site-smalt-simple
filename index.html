@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio Smalt - Design & Facilitation</title>
+    <title>Studio Smalt - Smart Alternative</title>
     <meta name="description" content="Studio Smalt - Design & Facilitation">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,109 +11,197 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Décorations SVG en fond -->
+    <div class="bg-deco bg-deco-top-left"></div>
+    <div class="bg-deco bg-deco-bottom-right"></div>
     <!-- Header -->
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="/" class="logo">
-                    <img src="img/logo.svg" alt="Studio Smalt" width="120" height="40">
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="Studio Smalt" width="90" height="32">
                 </a>
+                <div class="nav-links">
+                    <a href="#" class="nav-link">Mon profil</a>
+                    <a href="#" class="nav-link">Mes réalisations</a>
+                </div>
                 <a href="#contact" class="cta-button">Décrivez-nous votre projet</a>
             </nav>
         </div>
     </header>
-
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1 class="hero-title">
-                <span class="subtitle">Studio digital</span>
-                <span class="main-title">Smart</span>
-                <span class="rotated-title">Alternative</span>
-            </h1>
-            <p class="hero-description">
-                Design agile centré sur vos utilisateurs, livré prêt à intégrer.
-            </p>
-            <a href="#contact" class="cta-button">Décrivez-nous votre projet</a>
+            <div class="hero-content">
+                <div class="hero-titles">
+                    <span class="subtitle">STUDIO DIGITAL</span>
+                    <span class="main-title">Smart</span>
+                    <span class="rotated-title">Alternative</span>
+                </div>
+                <p class="hero-description">Des design agiles, centrés utilisateurs, pensés livraison.</p>
+                <a href="#contact" class="cta-button">Décrivez-nous votre projet</a>
+            </div>
+            <div class="hero-logos">
+                <img src="img/partenaires.png" alt="Logos partenaires" />
+            </div>
         </div>
     </section>
-
     <!-- Freelance Section -->
     <section class="freelance">
         <div class="container">
             <div class="badge">Studio Smalt</div>
-            <h2>Freelance oui, freestyle non</h2>
-            <p>
-                Chez Studio Smalt, je ne fais pas de design "au feeling".<br>
-                Je suis <strong>Salomé Mullet</strong>, freelance en product design, et j'accompagne les équipes produit, tech et marketing dans la création d'interfaces claires, utiles et testées.
-            </p>
-            <p class="approach">
-                <strong>🎯 Mon approche :</strong><br>
-                Structurer vos idées avec vos utilisateurs<br>
-                Prototyper vite pour tester mieux<br>
-                Livrer des parcours cohérents, conçus pour durer
-            </p>
-            <p class="conclusion">En solo, oui — mais avec une rigueur de studio.</p>
+            <h2>Freelance oui,<br>freestyle non</h2>
+            <p>Chez Studio Smalt, je ne fais pas de design "au feeling".<br>Je suis <strong>Salomé Mullet</strong>, product designer, et j'accompagne les équipes produit, tech et marketing dans la création d'interfaces utiles, claires et testées.</p>
+            <ul class="freelance-list">
+                <li>Je ne suis pas une main d'œuvre supplémentaire : j'accompagne, je structure, je challenge, je facilite.</li>
+                <li>Le design Smalt, c'est :<ul>
+                    <li>Des solutions digitales qui vous ressemblent</li>
+                    <li>Des parcours testés, pensés pour durer</li>
+                    <li>Une stratégie claire pour chaque projet</li>
+                </ul></li>
+            </ul>
         </div>
     </section>
-
     <!-- Services Section -->
     <section class="services">
         <div class="container">
-            <div class="services-content">
-                <div class="services-intro">
-                    <div class="badge">Mes services</div>
-                    <h2>Des solutions digitales qui <span class="highlight">vous ressemblent</span>, et qui fonctionnent</h2>
-                    <p>Chez Smalt, chaque projet est conçu pour répondre à un vrai besoin, pas pour cocher des cases.</p>
+            <div class="badge">Mes services</div>
+            <h2>Des solutions digitales qui <span class="highlight">vous ressemblent</span>,<br>et qui fonctionnent</h2>
+            <div class="services-cards">
+                <div class="service-card">
+                    <h3>Product Design</h3>
+                    <p>Conception de produits numériques utiles, ergonomiques et désirables.</p>
                 </div>
-                <div class="services-cards">
-                    <div class="service-card">
-                        <h3>Product Design</h3>
-                        <p>Je vous aide à concevoir des produits numériques pensés pour vos utilisateurs: interfaces intuitives, parcours fluides, maquettes testables, design systems…</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Web Design</h3>
-                        <p>Je crée des sites clairs, performants et modernes pour valoriser votre activité. Sites vitrine, pages d'atterrissage ou plateformes simples.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Facilitation</h3>
-                        <p>Vous avez des idées, des projets ou des équipes à aligner ? J'anime des ateliers pour structurer votre vision et clarifier vos priorités.</p>
-                    </div>
+                <div class="service-card">
+                    <h3>Web Design</h3>
+                    <p>Des sites web clairs, performants, pensés pour convertir.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Facilitation</h3>
+                    <p>Workshops, design sprint, ateliers d'alignement ou d'idéation.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <!-- Approche Section -->
+    <section class="approche">
         <div class="container">
-            <h2>Parlons de votre projet</h2>
-            <div class="contact-cards">
-                <div class="contact-card">
-                    <h3>Décrivez-nous votre projet</h3>
-                    <p>Parlez-nous de votre projet, de vos objectifs et de vos contraintes.</p>
+            <h2>Une approche agile, <span class="highlight">simple</span><br>et humaine</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Comprendre</h3>
+                        <p>On clarifie ensemble vos besoins, vos objectifs, vos utilisateurs et vos contraintes.</p>
+                    </div>
                 </div>
-                <div class="contact-card">
-                    <h3>On échange</h3>
-                    <p>On prend le temps d'échanger pour bien comprendre vos besoins.</p>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Concevoir</h3>
+                        <p>On structure, on prototype, on teste, on itère, jusqu'à trouver la solution la plus adaptée.</p>
+                    </div>
                 </div>
-                <div class="contact-card">
-                    <h3>On commence</h3>
-                    <p>On définit ensemble les prochaines étapes et on se met au travail.</p>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Valider</h3>
+                        <p>On valide les parcours et les solutions avec vos utilisateurs, avant de passer à la livraison.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Liver</h3>
+                        <p>On livre des maquettes prêtes à intégrer, documentées et testées.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- Tarifs Section -->
+    <section class="tarifs">
+        <div class="container">
+            <div class="badge">Tarifs</div>
+            <h2>Des offres <span class="highlight">claires</span>,<br>des tarifs <span class="highlight">justes</span></h2>
+            <div class="tarifs-cards">
+                <div class="tarif-card">
+                    <h3>Product Design</h3>
+                    <div class="tarif-price">380&nbsp;€ / jour</div>
+                    <ul>
+                        <li>Recherche utilisateur</li>
+                        <li>Wireframes & prototypes</li>
+                        <li>Design system</li>
+                        <li>Tests utilisateurs</li>
+                        <li>Livraison Figma</li>
+                    </ul>
+                </div>
+                <div class="tarif-card">
+                    <h3>Web Design</h3>
+                    <div class="tarif-price">à partir de 700&nbsp;€</div>
+                    <ul>
+                        <li>Site vitrine ou landing page</li>
+                        <li>Design responsive</li>
+                        <li>Optimisation SEO</li>
+                        <li>Livraison prête à intégrer</li>
+                    </ul>
+                </div>
+                <div class="tarif-card">
+                    <h3>Facilitation</h3>
+                    <div class="tarif-price">450&nbsp;€ / jour</div>
+                    <ul>
+                        <li>Workshops sur-mesure</li>
+                        <li>Design sprint</li>
+                        <li>Ateliers d'alignement</li>
+                        <li>Restitution claire</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projet Section -->
+    <section class="projet">
+        <div class="container">
+            <h2>Parlons de <span class="highlight">votre projet</span></h2>
+            <div class="projet-cards">
+                <div class="projet-card blue">
+                    <h3>Parlez-moi de votre projet</h3>
+                    <p>Explorons ensemble la meilleure approche pour répondre à vos objectifs et à la propre maturité d'un projet digital.</p>
+                    <a href="#contact" class="cta-button">Décrivez-moi votre projet</a>
+                </div>
+                <div class="projet-card yellow">
+                    <h3>Recevez une proposition</h3>
+                    <p>Je vous envoie une proposition claire, adaptée à vos besoins et à votre budget.</p>
+                </div>
+                <div class="projet-card dark">
+                    <h3>Démarrez rapidement</h3>
+                    <p>On lance la mission, on avance, on livre !</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="img/logo.svg" alt="Studio Smalt" width="120" height="40">
+                    <img src="img/logo.svg" alt="Studio Smalt" width="90" height="32">
                 </div>
-                <div class="footer-links">
-                    <a href="mailto:hello@studiosmalt.fr">hello@studiosmalt.fr</a>
+                <div class="footer-infos">
+                    <div class="footer-why">
+                        <h4>POURQUOI CHOISIR STUDIO SMALT ?</h4>
+                        <ul>
+                            <li>Des solutions sur-mesure, pas des recettes toutes faites.</li>
+                            <li>Un process clair, de la découverte à la livraison.</li>
+                            <li>Un accompagnement humain, honnête et engagé.</li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <a href="mailto:hello@studiosmalt.fr">hello@studiosmalt.fr</a>
+                    </div>
+                </div>
+                <div class="footer-img">
+                    <img src="img/footer-photo.jpg" alt="Atelier Studio Smalt" />
                 </div>
             </div>
         </div>
